@@ -1,0 +1,329 @@
+package ZooMonitoringSystem;
+import java.util.Scanner;
+
+public class ZooMonitoringSystem {
+	 public static void printLion() {            // Creating method to call for Lion Module in main method
+         String animal;
+         String name;
+         int age;
+         String healthConcerns;
+         String feedingSchedule;
+         
+          animal = "Lion";                       //Assigning characteristics to Lion
+          name = "Leo";
+          age = 5;
+          healthConcerns = "*****Health concerns: Cut on left front paw";
+          feedingSchedule = "Feeding schedule: Twice daily";
+        
+          System.out.println("Details on lions");        //Displays Lion Module
+          System.out.println("Animal - " + animal);
+          System.out.println("Name: " + name);
+          System.out.println("Age: " + age);
+          System.out.println("Health concerns: " + healthConcerns);
+          System.out.println("Feeding schedule: " + feedingSchedule);
+      }
+      public static void printTiger() {          //Creating method to call for Tiger Module in main method
+         String animal;
+         String name;
+         int age;
+         String healthConcerns;
+         String feedingSchedule;
+          
+          animal = "Tiger";                      //Assigning characteristics to Tiger
+          name = "Maj";
+          age = 15;
+          healthConcerns = "None";
+          feedingSchedule = "3x daily";
+          
+          System.out.println("Details on tigers");       //Displays Tiger Module
+          System.out.println("Animal - " + animal);
+          System.out.println("Name: " + name);
+          System.out.println("Age: " + age);
+          System.out.println("Health concerns: " + healthConcerns);
+          System.out.println("Feeding schedule: " + feedingSchedule);
+      }
+      public static void printBear() {       //Creating method to call for Bear Module in main method
+         String animal;
+         String name;
+         int age;
+         String healthConcerns;
+         String feedingSchedule;
+          
+          animal = "Bear";               //Assigning characteristics to Bear
+          name = "Baloo";
+          age = 1;
+          healthConcerns = "None";
+          feedingSchedule = "*****Feeding schedule: None on record";
+          
+          System.out.println("Details on bears");        //Displays Bear Module
+          System.out.println("Animal - " + animal);
+          System.out.println("Name: " + name);
+          System.out.println("Age: " + age);
+          System.out.println("Health concerns: " + healthConcerns);
+          System.out.println("Feeding schedule: " + feedingSchedule);
+      }
+      public static void printGiraffe() {        //Creating method to call for Giraffe Module in main method
+         String animal;
+         String name;
+         int age;
+         String healthConcerns;
+         String feedingSchedule;
+         
+          animal = "Giraffe";                //Assigning characteristics to Giraffe
+          name = "Spots";
+          age = 12;
+          healthConcerns = "None";
+          feedingSchedule = "Grazing";
+          
+          System.out.println("Details on giraffes");         //Displays Giraffe Module
+          System.out.println("Animal - " + animal);
+          System.out.println("Name: " + name);
+          System.out.println("Age: " + age);
+          System.out.println("Health concerns: " + healthConcerns);
+          System.out.println("Feeding schedule: " + feedingSchedule);
+          }
+      public static void printPenguin() {        //Creating method to call for Penguin Module in main method
+          String animal;
+          String name;
+          int age;
+          String healthConcerns;
+          String feedingSchedule;
+          
+           animal = "Penguin";                //Assigning characteristics to Penguin
+           name = "Suzie";
+           age = 2;
+           healthConcerns = "None";
+           feedingSchedule = "3x Daily";
+           
+           System.out.println("Details on penguins");         //Displays Penguin Module
+           System.out.println("Animal - " + animal);
+           System.out.println("Name: " + name);
+           System.out.println("Age: " + age);
+           System.out.println("Health concerns: " + healthConcerns);
+           System.out.println("Feeding schedule: " + feedingSchedule);
+           }
+      public static void printWolf() {        //Creating method to call for Wolf Module in main method
+          String animal;
+          String name;
+          int age;
+          String healthConcerns;
+          String feedingSchedule;
+          
+           animal = "Wolf";                //Assigning characteristics to Wolf
+           name = "Max";
+           age = 5;
+           healthConcerns = "None";
+           feedingSchedule = "2x Daily";
+           
+           System.out.println("Details on wolves");         //Displays Wolf Module
+           System.out.println("Animal - " + animal);
+           System.out.println("Name: " + name);
+           System.out.println("Age: " + age);
+           System.out.println("Health concerns: " + healthConcerns);
+           System.out.println("Feeding schedule: " + feedingSchedule);
+           }
+      public static void printSnake() {        //Creating method to call for Snake Module in main method
+          String animal;
+          String name;
+          int age;
+          String healthConcerns;
+          String feedingSchedule;
+          
+           animal = "Snake";                //Assigning characteristics to Snake
+           name = "Snape";
+           age = 1;
+           healthConcerns = "None";
+           feedingSchedule = "2x Daily";
+           
+           System.out.println("Details on snakes");         //Displays Snake Module
+           System.out.println("Animal - " + animal);
+           System.out.println("Name: " + name);
+           System.out.println("Age: " + age);
+           System.out.println("Health concerns: " + healthConcerns);
+           System.out.println("Feeding schedule: " + feedingSchedule);
+           }
+
+         
+         public static void printPenguinHabitat() {      //Creating method to call for Penguin Habitat Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Penguin";                    //Assigning characteristics to Penguin Habitat
+             temperature = "Freezing";
+             foodSource = "*****Food source: Fish in water running low";
+             cleanliness = "Passed";
+             
+             System.out.println("Details on penguin habitat");       //Displays Penguin Habitat Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+         public static void printBirdHouse() {                   //Creating method to call for Bird House Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Bird";                       // Assigning characteristics to Bird House
+             temperature = "Moderate";
+             foodSource = "Natural from environment";
+             cleanliness = "Passed"; 
+             
+             System.out.println("Details on bird house");        // Displays Bird House Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+         public static void printAquarium() {        //Creating method to call for Aquarium Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Aquarium";                   // Assign characteristics to Aquarium
+             temperature = "Varies with output temperature";
+             foodSource = "Added daily";
+             cleanliness = "*****Cleanliness: Needs cleaning from algae";
+             
+             System.out.println("Details on aquarium");      // Displays Aquarium Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+         public static void printGreenhouse() {        //Creating method to call for Greenhouse Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Greenhouse";                   // Assign characteristics to Greenhouse
+             temperature = "***Needs temperature regulating";
+             foodSource = "Added daily";
+             cleanliness = "*****Cleanliness: Needs watering of plants and slight clean up";
+             
+             System.out.println("Details on Greenhouse");      // Displays Greenhouse Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+         public static void printDesert() {        //Creating method to call for Desert Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Desert";                   // Assign characteristics to Desert
+             temperature = "***Needs temperature regulating";
+             foodSource = "Added daily";
+             cleanliness = "*****Cleanliness: Needs new sand added";
+             
+             System.out.println("Details on Desert");      // Displays Desert Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+         public static void printMonkeyHouse() {        //Creating method to call for Monkey House Module in main method
+             String habitat;
+             String temperature;
+             String foodSource;
+             String cleanliness;
+             
+             habitat = "Monkey House";                   // Assign characteristics to Monkey House
+             temperature = "Moderate";
+             foodSource = "Added daily";
+             cleanliness = "*****Cleanliness: Needs cleaning and new toys to be added";
+             
+             System.out.println("Details on Monkey House");      // Displays Monkey House Module
+             System.out.println("Habitat - " + habitat);
+             System.out.println("Temperature: " + temperature);
+             System.out.println("Food source: " + foodSource);
+             System.out.println("Cleanliness: " + cleanliness);
+         }
+
+	public static void main(String[] args) {
+		String userInput;                      //Strings to store user input
+        String userInput1;
+        Scanner scnr = new Scanner(System.in);     //Allows to scan for user input
+        
+        System.out.println("Hello! Welcome to the zoo monitoring system!");            //Main welcome message
+        System.out.println("Please choose between selecting an Animal or a Habitat");
+        System.out.println("To choose, please type in \"Animal\" for Animal or \"Habitat\" for Habitat");
+        System.out.println("To exit, type in \"Exit\"");
+        userInput = scnr.nextLine();                           //Scans for user input
+        
+        if (userInput.equals("Animal")) {                      //If user types in Animal
+           System.out.println("Please select an Animal");      //Displays further dialogue
+           System.out.println("Please note that if any module displays \"*****\" next to a characteristic, this is meant to bring awareness of an issue to the user");
+           System.out.println("Please type in one of these options: ");
+           System.out.println("Lion, Tiger, Bear, Giraffe, Penguin, Wolf, or Snake ");
+           userInput1 = scnr.nextLine();                       //Scans for user input
+           
+           if (userInput1.equals("Lion")) {                    //If user types Lion
+               printLion();                                    //Calls Lion method to display Lion module
+           }
+           if (userInput1.equals("Tiger")) {                   //If user types Tiger 
+               printTiger();                                   //Calls Tiger method to display Tiger module
+           }
+           if (userInput1.equals("Bear")) {                    //If user types Bear
+               printBear();                                    //Calls Bear method to display Bear module
+           }
+           if (userInput1.equals("Giraffe")) {                 //If user types Giraffe        
+               printGiraffe();    								//Calls Giraffe method to display Giraffe module
+           }
+           if (userInput1.equals("Penguin")) {					//If user types Penguin
+        	   printPenguin();									//Calls Penguin method to display Penguin module
+           }
+           if (userInput1.equals("Wolf")) {						//If user types Wolf
+        	   printWolf();										//Calls Wolf method to display Wolf module
+           }
+           if (userInput1.equals("Snake")) {					//If user types Snake
+        	   printSnake();									//Calls Snake method to display SNake module
+           }
+           
+           else {                                              //If none of the above is selected
+           }
+           System.out.println("Go back");                      //Prints go back
+        }
+        if (userInput.equals("Habitat")) {                     //If user types Habitat
+            System.out.println("Please select a Habitat");     //Displays further dialogue
+            System.out.println("Please note that if any module displays \"*****\" next to a characteristic, this is meant to bring awareness of an issue to the user");
+            System.out.println("Please type in one of these options: ");
+            System.out.println("Penguin Habitat, Bird House, Aquarium, Greenhouse, Desert, or Monkey House");
+            userInput1 = scnr.nextLine();                      //Scans for user input
+            
+            if (userInput1.equals("Penguin Habitat")) {        //If user types Penguin Habitat
+                printPenguinHabitat();                         //Calls Penguin Habitat method to display Penguin Habitat module
+            }
+            if (userInput1.equals("Bird House")) {             //If user types Bird House
+                printBirdHouse();                              //Calls Bird House method to display Bird House module
+            }
+            if (userInput1.equals("Aquarium")) {               //If user types Aquarium
+                printAquarium();                               //Calls Aquarium method to display Aquarium module
+            }
+            if (userInput1.equals("Greenhouse")) {				//If user types Greenhouse
+            	printGreenhouse();								//Calls Greenhouse method to display Greenhouse module
+            }
+            if (userInput1.equals("Desert")) {					//If user types Desert
+            	printDesert();									//Calls Desert method to display Desert module
+            }
+            if (userInput1.equals("Monkey House")) {			//If user types Monkey House
+            	printMonkeyHouse();								//Calls Monkey House method to display Monkey House module
+            }
+            else {                                             //If none of the above is selected
+            }
+            System.out.println("Go back");                     //Prints go back
+            
+
+	}
+	}
+
+}
+
+
